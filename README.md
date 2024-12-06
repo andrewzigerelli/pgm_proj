@@ -1,3 +1,5 @@
+Interpretable graphical models for author attribution
+
 Datasets: train.csv, test.csv, val.csv
 * Features: text
 * Label: author_id
