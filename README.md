@@ -7,4 +7,8 @@ Datasets: train.csv, test.csv, val.csv
 Code:
 * bert.py: contains baseline BERT model
 * lda.ipynb: contains LDA and supervised LDA models
-* beta vae
+* bvae.py: contains the beta-vae + shallow nn implementation.
+bvae.py contains both a beta-vae implementation on bag of words,
+but also contains an implementation using a pretrain word2vec model. this
+requires downloading the google word2vec dataset, which is too big to find here,
+but it is available on kaggle (word2vec-GoogleNews-vectors-negative300.bin)
