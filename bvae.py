@@ -184,7 +184,7 @@ class BetaVAE(nn.Module):
 
 
 
-def train(self, trainset, valset, testset, lr=.01, num_epochs=10):
+def train(model, trainset, valset, testset, lr=.01, num_epochs=10):
     this_dict = {}
     tr_loss={}
     val_loss={}
